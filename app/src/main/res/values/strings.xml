@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Bright quiz</string>
+
+    <string name="check_submit">Sorry you already submit your answers!</string>
+    <string name="final_score">Your score: </string>
+    <string name="ques_1">1.pick following cities from India</string>
+    <string name="new_delhi">New Delhi</string>
+    <string name="new_york">New York</string>
+    <string name="kolkata">Kolkata</string>
+    <string name="ques2">2.Euro was a currency of ??.</string>
+    <string name="germany">Germany</string>
+    <string name="france">France</string>
+    <string name="cuba">Cuba</string>
+    <string name="ques_3">3. Which country was Nelson Mandela from?</string>
+    <string name="south_africa">south Africa</string>
+    <string name="india">India</string>
+    <string name="aus">Zuid-Afrika</string>
+    <string name="ques4">4.What are the other names of India?</string>
+    <string name="hindusthan">Hindusthan</string>
+    <string name="bharath">Bharath</string>
+    <string name="ceylon">Ceylon</string>
+    <string name="ques5">5.which city was oldest city in world?</string>
+    <string name="answer_here">answer here</string>
+    <string name="submit">submit</string>
+    <string name="reset">reset</string>
+    <string name="start">START</string>
+    <string name="ques6">6.what is the capital of japan</string>
+    <string name="madrid">madrid</string>
+    <string name="beijing">Beijing</string>
+    <string name="tokyo">Tokyo</string>
+
+</resources>

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nightpic"
+    tools:context="com.example.android.brightquiz.quiz">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/logo_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/logo_mgt"
+            android:adjustViewBounds="true"
+            android:src="@drawable/smalllogo" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card1_mgl"
+            android:layout_marginRight="@dimen/card1_mgr"
+            android:layout_marginTop="@dimen/card1_mgt"
+            card_view:cardBackgroundColor="@color/card1_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/ques1_pdb"
+                android:paddingLeft="@dimen/ques1_pdl"
+                android:paddingRight="@dimen/ques1_pdr"
+                android:paddingTop="@dimen/ques1_pdt"
+                android:text="@string/ques_1"
+                android:textColor="@color/ques1_color"
+                android:textSize="@dimen/ques1_txtsize"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card2_widt"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card2_mgl"
+            android:layout_marginTop="@dimen/card2_mgt">
+
+
+            <CheckBox
+                android:id="@+id/new_delhi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/nd_pad"
+                android:text="@string/new_delhi"
+                android:textColor="@color/nd_txtcolor"
+                android:textSize="@dimen/nd_txtsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card3_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card3_mgl"
+            android:layout_marginTop="@dimen/card3_mgt">
+
+
+            <CheckBox
+                android:id="@+id/new_york"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/ny_pad"
+                android:text="@string/new_york"
+                android:textColor="@color/ny_txtcolor"
+                android:textSize="@dimen/ny_txtsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card4_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card4_mgl"
+            android:layout_marginTop="@dimen/card4_mgt">
+
+
+            <CheckBox
+                android:id="@+id/kolkata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/kol_pad"
+                android:text="@string/kolkata"
+                android:textColor="@color/kol_txtcolor"
+                android:textSize="@dimen/kol_txtsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view1_height"
+            android:layout_marginTop="@dimen/view1_mgt"
+            android:background="@color/view1_bg" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card4_mgl"
+            android:layout_marginTop="@dimen/caed5_mgt"
+            card_view:cardBackgroundColor="@color/card5_bgcolor">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/ques2_pdb"
+                android:paddingLeft="@dimen/ques2_pdl"
+                android:paddingRight="@dimen/ques2_pdr"
+                android:paddingTop="@dimen/ques2_pdt"
+                android:text="@string/ques2"
+                android:textColor="@color/ques2_txtcolor"
+                android:textSize="@dimen/ques2_txtsize"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card6_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card6_mgl"
+            android:layout_marginTop="@dimen/card6_mgt">
+
+
+            <CheckBox
+                android:id="@+id/germany_cb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/germany_pad"
+                android:text="@string/germany"
+                android:textColor="@color/germany_txtcolor"
+                android:textSize="@dimen/germany_txtsiz"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card7_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card7_mgl"
+            android:layout_marginTop="@dimen/card7_mgt">
+
+
+            <CheckBox
+                android:id="@+id/france_cb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/france_pad"
+                android:text="@string/france"
+                android:textColor="@color/france_txtcolor"
+                android:textSize="@dimen/france_txtsie"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card8_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card8_mgl"
+            android:layout_marginTop="@dimen/card8_mgt">
+
+
+            <CheckBox
+                android:id="@+id/cuba_cb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/cuba_pad"
+                android:text="@string/cuba"
+                android:textColor="@color/cuba_txtxolor"
+                android:textSize="@dimen/cuba_txtsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view2_height"
+            android:layout_marginTop="@dimen/view2_mgt"
+            android:background="@color/view2_bg" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card9_mgl"
+            android:layout_marginRight="@dimen/car9_mgr"
+            android:layout_marginTop="@dimen/card9_mgt"
+            card_view:cardBackgroundColor="@color/card9_bgcolor">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/ques3_pdb"
+                android:paddingLeft="@dimen/ques3_pdl"
+                android:paddingRight="@dimen/ques3_pdr"
+                android:paddingTop="@dimen/ques3_pdt"
+                android:text="@string/ques_3"
+                android:textColor="@color/ques3_txtcolor"
+                android:textSize="@dimen/ques3_txtsie"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card10_id"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card10_mgl"
+            android:layout_marginTop="@dimen/card10_mgt">
+
+            <CheckBox
+                android:id="@+id/south_africa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/africa_pad"
+                android:text="@string/south_africa"
+                android:textColor="@color/africa_txtcolor"
+                android:textSize="@dimen/africa_txtsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card11_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card11_mgl"
+            android:layout_marginTop="@dimen/card11_mgt">
+
+
+            <CheckBox
+                android:id="@+id/india"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/india_pad"
+                android:text="@string/india"
+                android:textColor="@color/india_txtcolor"
+                android:textSize="@dimen/india_txtsie"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card12_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card12_mgl"
+            android:layout_marginTop="@dimen/card12_mgt">
+
+
+            <CheckBox
+                android:id="@+id/australia_rb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/aus_pad"
+                android:text="@string/aus"
+                android:textColor="@color/aus_txtcolor"
+                android:textSize="@dimen/aus_txtsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view3_height"
+            android:layout_marginTop="@dimen/view3_mgt"
+            android:background="@color/view3_bg" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card13_mgl"
+            android:layout_marginRight="@dimen/card13_mgr"
+            android:layout_marginTop="@dimen/card13_mgt"
+            card_view:cardBackgroundColor="@color/card13_bgcolor">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/ques4_pdb"
+                android:paddingLeft="@dimen/ques4_pdl"
+                android:paddingRight="@dimen/ques4_mgr"
+                android:paddingTop="@dimen/quess4_pdt"
+                android:text="@string/ques4"
+                android:textColor="@color/ques4_txtcolor"
+                android:textSize="@dimen/ques4_txtsize"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card14_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card14_mgl"
+            android:layout_marginTop="@dimen/card14_mgt">
+
+
+            <CheckBox
+                android:id="@+id/mumbai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/mum_pad"
+                android:text="@string/hindusthan"
+                android:textColor="@color/mum_txtcolor"
+                android:textSize="@dimen/mum_txtsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card15_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card15_mgl"
+            android:layout_marginTop="@dimen/card15_mgt">
+
+
+            <CheckBox
+                android:id="@+id/ankara"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/anka_pad"
+                android:text="@string/bharath"
+                android:textColor="@color/anka_txtcolor"
+                android:textSize="@dimen/anka_txtsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card16_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card16_mgl"
+            android:layout_marginTop="@dimen/card16_mgt">
+
+
+            <CheckBox
+                android:id="@+id/moscow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/mos_pad"
+                android:text="@string/ceylon"
+                android:textColor="@color/mos_txtcolor"
+                android:textSize="@dimen/mos_txtsize"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view4_height"
+            android:layout_marginTop="@dimen/view4_mgt"
+            android:background="@color/view4_bgcolor" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card17_mgl"
+            android:layout_marginRight="@dimen/card17_mgr"
+            android:layout_marginTop="@dimen/card17_mgt"
+            card_view:cardBackgroundColor="@color/card17_bgcolor">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/ques5_pdb"
+                android:paddingLeft="@dimen/ques5_pdl"
+                android:paddingRight="@dimen/ques5_pdr"
+                android:paddingTop="@dimen/ques5_pdt"
+                android:text="@string/ques5"
+                android:textColor="@color/ques5_txtcolor"
+                android:textSize="@dimen/ques5_txtsize"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/card18_wid"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card18_mgl"
+            android:layout_marginRight="@dimen/card18_mgr"
+            android:layout_marginTop="@dimen/card18_mgt">
+
+
+            <EditText
+                android:id="@+id/your_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:defaultFocusHighlightEnabled="true"
+                android:hint="@string/answer_here"
+                android:inputType="text"
+                android:textColorHint="@color/answer_here" />
+        </android.support.v7.widget.CardView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view4_height"
+            android:layout_marginTop="@dimen/view4_mgt"
+            android:background="@color/view4_bgcolor" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card19_mgl"
+            android:layout_marginRight="@dimen/card19_mgr"
+            android:layout_marginTop="@dimen/card19_mgt"
+            card_view:cardBackgroundColor="@color/card19_bgcolor">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/ques6_pdb"
+                android:paddingLeft="@dimen/ques6_pdl"
+                android:paddingRight="@dimen/ques6_pdr"
+                android:paddingTop="@dimen/ques6_pdt"
+                android:text="@string/ques6"
+                android:textColor="@color/ques6_txtcolor"
+                android:textSize="@dimen/ques6_txtsie"
+                android:textStyle="bold" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card20_mgl"
+            android:layout_marginRight="@dimen/card20_mgr"
+            android:layout_marginTop="@dimen/card20_mgt"
+            card_view:cardBackgroundColor="@color/card20_bgcolor">
+
+            <RadioGroup
+                android:id="@+id/first_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/madrid_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/mad_pdl"
+                    android:padding="@dimen/mad_pad"
+                    android:text="@string/madrid"
+                    android:textSize="@dimen/mad_txtsie"
+                    android:textStyle="bold" />
+
+
+                <RadioButton
+                    android:id="@+id/beijing_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/beijing_mgl"
+                    android:padding="@dimen/beijing_pad"
+                    android:text="@string/beijing"
+                    android:textSize="@dimen/beijing_txtsie"
+                    android:textStyle="bold" />
+
+
+                <RadioButton
+                    android:id="@+id/tokyo_rb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/tok_mgl"
+                    android:padding="@dimen/tok_pad"
+                    android:text="@string/tokyo"
+                    android:textSize="@dimen/tok_txtsize"
+                    android:textStyle="bold" />
+
+
+            </RadioGroup>
+        </android.support.v7.widget.CardView>
+
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/button_mgl"
+            android:layout_marginRight="@dimen/buttonmgr"
+            android:layout_marginTop="@dimen/button_mgt"
+            android:background="@drawable/button_bg"
+            android:onClick="answerSubmit"
+            android:text="@string/submit" />
+
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/reset_mgl"
+            android:layout_marginRight="@dimen/reset_mgr"
+            android:layout_marginTop="@dimen/reset_mgt"
+            android:background="@drawable/button_bg"
+            android:onClick="reset_button"
+            android:text="@string/reset" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
